@@ -17,12 +17,13 @@ public class PlayerScript : MonoBehaviour
 	{
 		// 3 - Récupérer les informations du clavier/manette
 		float inputX = Input.GetAxis("Horizontal");
-		float inputY = Input.GetAxis("Vertical");
+		//float inputY = Input.GetAxis("Vertical");
+		float inputY = Input.GetAxis("Jump");
 		
 		// 4 - Calcul du mouvement
 		movement = new Vector2(
 			speed.x * inputX,
-			speed.y * 0);
+			speed.y * inputY);
 		//movement = new Vector2(
 			//speed.x * inputX);
 		

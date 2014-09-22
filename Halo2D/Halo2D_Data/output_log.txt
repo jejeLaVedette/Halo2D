@@ -1,0 +1,22 @@
+Initialize engine version: 4.5.3f3 (fca41a4fabea)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon(TM) R4 Graphics (ID=0x9851)
+    Vendor:   ATI
+    VRAM:     1007 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.128 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.383010 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 149.
+Total: 1.397532 ms (FindLiveObjects: 0.011399 ms CreateObjectMapping: 0.015958 ms MarkObjects: 0.148758 ms  DeleteObjects: 0.014818 ms)
+

@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\HealthScript.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\MoveScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
      <Compile Include="Assets\Scripts\ShotMoveScript.cs" />
      <Compile Include="Assets\Scripts\ShotScript.cs" />
   </ItemGroup>
