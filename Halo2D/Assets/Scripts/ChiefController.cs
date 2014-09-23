@@ -4,7 +4,7 @@ using System.Collections;
 public class ChiefController : MonoBehaviour {
 
 	public Animator anim;
-	public float speed=8f;
+	public float speed=2f;
 	public int jumpSpeed = 350;
 
 	//variable pour : tant que tu ne touches pas le seul : je ne saute pas 

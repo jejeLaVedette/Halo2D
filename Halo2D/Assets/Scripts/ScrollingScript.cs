@@ -5,36 +5,17 @@
 /// </summary>
 public class ScrollingScript : MonoBehaviour
 {
-	/// <summary>
-	/// Vitesse du défilement
-	/// </summary>
-	public Vector2 speed = new Vector2(2, 2);
-	
-	/// <summary>
-	/// Direction du défilement
-	/// </summary>
-	public Vector2 direction = new Vector2(0, 0);
-	
-	/// <summary>
-	/// Appliquer le mouvement de scrolling à la caméra ?
-	/// </summary>
-	public bool isLinkedToCamera = false;
-	
+	//on passe le perso en paramètre
+	public Transform player;
+
+	void Start()
+	{
+		
+	}
+
 	void Update()
 	{
-		// Mouvement
-		Vector3 movement = new Vector3(
-			speed.x * direction.x,
-			speed.y * direction.y,
-			0);
-		
-		movement *= Time.deltaTime;
-		transform.Translate(movement);
-		
-		// Déplacement caméra
-		if (isLinkedToCamera)
-		{
-			Camera.main.transform.Translate(movement);
-		}
+		transform.position = new Vector3 (player.position.x + 5, player.position.y / 2, -10);
+		                          
 	}
 }

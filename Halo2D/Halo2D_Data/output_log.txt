@@ -10,13 +10,13 @@ Platform assembly: C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Mana
 Loading C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Jérôme\Documents\UnityGame\Halo2D\Halo2D_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.128 seconds
+- Completed reload, in  0.149 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.383010 ms
+UnloadTime: 0.502701 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 149.
-Total: 1.397532 ms (FindLiveObjects: 0.011399 ms CreateObjectMapping: 0.015958 ms MarkObjects: 0.148758 ms  DeleteObjects: 0.014818 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 190.
+Total: 1.596447 ms (FindLiveObjects: 0.025078 ms CreateObjectMapping: 0.017098 ms MarkObjects: 0.185805 ms  DeleteObjects: 0.014248 ms)
 
