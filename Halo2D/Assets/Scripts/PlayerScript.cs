@@ -12,6 +12,7 @@ public class PlayerScript : MonoBehaviour
 	
 	// 2 - Stockage du mouvement
 	private Vector2 movement;
+	public float jumpSpeed = 200;
 	
 	void Update()
 	{
@@ -19,13 +20,18 @@ public class PlayerScript : MonoBehaviour
 		float inputX = Input.GetAxis("Horizontal");
 		//float inputY = Input.GetAxis("Vertical");
 		float inputY = Input.GetAxis("Jump");
+
+		if (Input.GetButtonDown ("Jump")) {
+			rigidbody2D.AddForce(new Vector2(0,jumpSpeed));
+		}
 		
 		// 4 - Calcul du mouvement
 		movement = new Vector2(
 			speed.x * inputX,
 			speed.y * inputY);
-		//movement = new Vector2(
-			//speed.x * inputX);
+
+		//if (Input.GetKey (KeyCode.Escape))
+			//transform.Translate (new Vector2 (0, 1) * jumpSpeed * Time.deltaTime);
 		
 	}
 	
