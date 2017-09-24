@@ -1,14 +1,14 @@
 using UnityEngine;
 
 /// <summary>
-/// Déplace l'objet
+/// DÃ©place l'objet
 /// </summary>
 public class ShotMoveScript : MonoBehaviour
 {
 	// 1 - Designer variables
 	
 	/// <summary>
-	/// Vitesse de déplacement
+	/// Vitesse de dÃ©placement
 	/// </summary>
 	public Vector2 speed = new Vector2(10, 10);
 	
@@ -30,6 +30,6 @@ public class ShotMoveScript : MonoBehaviour
 	void FixedUpdate()
 	{
 		// Application du mouvement
-		rigidbody2D.velocity = movement;
+		GetComponent<Rigidbody2D>().velocity = movement;
 	}
 }

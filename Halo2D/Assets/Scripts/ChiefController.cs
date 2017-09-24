@@ -32,7 +32,7 @@ public class ChiefController : MonoBehaviour {
 
 		//gestion du saut
 		if (toucheLeSol && Input.GetButtonDown ("Jump")) {
-			rigidbody2D.AddForce(new Vector2(0,jumpSpeed));
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpSpeed));
 		}
 
 		//si je me déplace vers la droite

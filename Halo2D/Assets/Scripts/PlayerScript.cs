@@ -22,7 +22,7 @@ public class PlayerScript : MonoBehaviour
 		float inputY = Input.GetAxis("Jump");
 
 		if (Input.GetButtonDown ("Jump")) {
-			rigidbody2D.AddForce(new Vector2(0,jumpSpeed));
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpSpeed));
 		}
 		
 		// 4 - Calcul du mouvement
@@ -38,6 +38,6 @@ public class PlayerScript : MonoBehaviour
 	void FixedUpdate()
 	{
 		// 5 - Déplacement
-		rigidbody2D.velocity = movement;
+		GetComponent<Rigidbody2D>().velocity = movement;
 	}
 }
